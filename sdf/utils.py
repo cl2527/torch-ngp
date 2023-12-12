@@ -290,7 +290,6 @@ class Trainer(object):
         self.use_tensorboardX = use_tensorboardX
 
 
-
     def prepare_data(self, data):
         if isinstance(data, list):
             for i, v in enumerate(data):

@@ -1135,3 +1135,4 @@ class Trainer(object):
                 self.log("[INFO] loaded scaler.")
             except:
                 self.log("[WARN] Failed to load scaler.")
+                
